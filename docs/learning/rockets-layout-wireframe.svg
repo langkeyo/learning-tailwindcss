@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <style>
+      .title { font: 700 26px 'Segoe UI', Arial, sans-serif; fill: #0f172a; }
+      .label { font: 600 16px 'Segoe UI', Arial, sans-serif; fill: #0f172a; }
+      .small { font: 500 13px 'Segoe UI', Arial, sans-serif; fill: #334155; }
+      .box { fill: #f8fafc; stroke: #334155; stroke-width: 2; }
+      .card { fill: #ffffff; stroke: #334155; stroke-width: 2; }
+      .header { fill: #0f766e; stroke: #134e4a; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <text x="30" y="40" class="title">Rockets Section Layout Wireframe (Desktop + Mobile)</text>
+
+  <rect x="30" y="70" width="540" height="640" rx="8" class="box"/>
+  <text x="50" y="100" class="label">Desktop (sm and up)</text>
+
+  <rect x="60" y="130" width="480" height="60" rx="8" class="header"/>
+  <text x="80" y="168" class="label" fill="#ffffff">Header (already done)</text>
+
+  <rect x="60" y="210" width="480" height="120" rx="8" class="box"/>
+  <text x="80" y="245" class="label">Hero (already done)</text>
+  <text x="80" y="270" class="small">left text 50% | right image 50%</text>
+
+  <rect x="60" y="350" width="480" height="320" rx="8" class="box"/>
+  <text x="80" y="385" class="label">Rockets Section</text>
+  <text x="80" y="410" class="small">h2 centered + card list row</text>
+
+  <rect x="80" y="435" width="130" height="205" rx="18" class="card"/>
+  <rect x="235" y="435" width="130" height="205" rx="18" class="card"/>
+  <rect x="390" y="435" width="130" height="205" rx="18" class="card"/>
+
+  <text x="101" y="548" class="small">Explorer</text>
+  <text x="250" y="548" class="small">Adventurer</text>
+  <text x="417" y="548" class="small">Infinity</text>
+
+  <rect x="630" y="70" width="540" height="640" rx="8" class="box"/>
+  <text x="650" y="100" class="label">Mobile (default)</text>
+
+  <rect x="660" y="130" width="480" height="60" rx="8" class="header"/>
+  <text x="680" y="168" class="label" fill="#ffffff">Header (menu button visible)</text>
+
+  <rect x="660" y="210" width="480" height="120" rx="8" class="box"/>
+  <text x="680" y="245" class="label">Hero stacked</text>
+  <text x="680" y="270" class="small">image below text (flex-col-reverse)</text>
+
+  <rect x="660" y="350" width="480" height="320" rx="8" class="box"/>
+  <text x="680" y="385" class="label">Rockets Section</text>
+  <text x="680" y="410" class="small">h2 centered + cards column</text>
+
+  <rect x="805" y="435" width="190" height="62" rx="16" class="card"/>
+  <rect x="805" y="512" width="190" height="62" rx="16" class="card"/>
+  <rect x="805" y="589" width="190" height="62" rx="16" class="card"/>
+
+  <text x="852" y="472" class="small">Explorer</text>
+  <text x="845" y="549" class="small">Adventurer</text>
+  <text x="856" y="626" class="small">Infinity</text>
+</svg>
